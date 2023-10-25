@@ -1,4 +1,5 @@
 import { useState } from "react"
+import './Home.css'
 
 function Home() {
     const [isLogged, setIsLogged] = useState(false)
@@ -30,7 +31,7 @@ function Home() {
                                  alignItems: "center"
                             }}>
                                 <img 
-                                    src="https://i.imgur.com/VpwApCU.png" 
+                                    src="https://images.hindustantimes.com/img/2022/05/14/original/Picture_2_1652544202681.jpeg" 
                                     alt="Imagem da Página Home" 
                                     width="400px"
                                 />

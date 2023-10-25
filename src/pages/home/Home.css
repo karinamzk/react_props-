@@ -1,0 +1,39 @@
+@import url('https://images.hindustantimes.com/img/2022/05/14/original/Picture_2_1652544202681.jpeg')
+;root {
+  font-family: OpenSans, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  color-scheme: light dark;
+  color: rgba(163, 26, 26, 0.87);
+  background:#213547
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+  background-color: rgb(178, 210, 211);
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+p{
+    font-size: 2em;
+}
+
+
+button, a{
+    color:#030303;
+    margin-top: 30px;
+    background-color:  #f8f8f8;
+    padding: 20px;
+    cursor: pointer;
+    border-radius: 15px;
+    text-decoration: none;
+    font-size: 1em;
+}
